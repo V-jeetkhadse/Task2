@@ -16,7 +16,7 @@ public class Employee
 	private int id;
 	private String name;
 	private double salary;
-	private long mbno;
+	private String mbno;
 	private String addr;
 
 }

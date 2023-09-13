@@ -10,4 +10,6 @@ public interface HomeService {
 
 	List<Employee> getAllData();
 
+	void deleteData(int id);
+
 }

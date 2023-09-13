@@ -27,4 +27,11 @@ public class HomeServiceImpl implements HomeService {
 		List<Employee> findAll = hr.findAll();
 		return findAll;
 	}
+
+	@Override
+	public void deleteData(int id) {
+		
+		hr.deleteById(id);
+		
+	}
 }
